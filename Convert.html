@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ 
+ <!--
+ Author : Agbasi oscar, 000333302
+ -->
+<html>
+<head>
+<title>Convert quantities</title>
+<link rel="stylesheet" type="text/css" href="Convert.css">
+
+</head>
+<body>
+
+
+<div class = box>
+<h1>Convert CAD and USD</h1>
+
+ <form action="action.php" method = "POST">
+  
+  Name: <input type="text" name="fname">
+    <br>
+
+  <p> 
+  Min-number: <input type="Min-number" name="quantity" min="0" max="" >
+  </p>
+  <p> 
+  Max-number: <input type="Max-number" name="1quantity" min="0" max="" >
+  </p> 
+  Step:     <input type="number" name ="Step_q" >
+  <br>
+ 
+ <select name="dropown">
+ <option value='' disabled selected>Assign Convertion</option>
+  <option value="USD-CAD" name ="USD-CAD">Convert USD to CAD</option>
+  <option value="CAD-USD" name "CAD-USD">Convert CAD to USD</option>
+</select>
+
+
+  <input type="submit" name = "submit" id= "sumbit" value="Submit"> 
+  <input type = "reset" name = "reset" id ="Reset" value="Reset">
+</form> 
+</div>
+
+</body>
+</html> 

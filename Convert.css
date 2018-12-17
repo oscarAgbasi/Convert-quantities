@@ -1,0 +1,17 @@
+body{
+	
+	background-color:white;
+	
+}
+
+.box{
+	
+    width: 500px;
+	height: 250px;
+    padding: 0px;
+    border: 5px solid red;
+    margin: 0;
+    font: Open Sans;
+	text-align:center;
+	
+}
